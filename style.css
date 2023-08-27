@@ -1,0 +1,186 @@
+*
+{
+margin:0;
+padding: 0;
+box-sizing: border-box;    
+}
+
+section
+{
+background-image:url(images/school.jpg);  
+height: 100vh;
+background-position: center center;
+background-size: cover;  
+width: 100%;
+position: relative;
+}
+
+nav
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+
+}
+
+.left-main
+{
+display: flex;
+width: 140px;
+justify-content: space-between;    
+align-items: center;
+margin-left: 60px;
+}
+.left-icon i
+{
+color: orange;
+font-weight: bolder;    
+font-size: 25px;        
+}
+
+.left-edu h2
+{   
+text-transform: capitalize;  
+font-size: 2rem;
+margin-left: 20px;
+color: white;  
+}
+
+.navber
+{
+display: flex;
+align-items: center;  
+margin-right: 150px;  
+}
+.navber ul
+{
+margin-right: 30px;
+}
+
+.navber ul li
+{
+display: inline;   
+list-style: none; 
+}
+.navber ul li a
+{
+   padding-left: 30px;
+   text-decoration: none;
+   color:wheat;
+   text-transform: capitalize;
+   font-size: 21px;
+}
+
+.logo
+{
+border: 1px solid rgb(165, 143, 143);
+width:120px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;    
+border-radius: 6px;
+animation: .4s;
+}
+
+.logo .logo-design
+{
+justify-content: space-between;
+width: 93%;
+display: flex;  
+}
+
+.logo .logo-design span 
+{
+text-transform: capitalize;   
+color: white;
+font-size: 20px; 
+}
+
+.logo-design i
+{
+color: white;    
+}
+
+.text-area
+{
+padding: 170px 50px;    
+}
+
+.text-area-1 p
+{
+color: white;
+font-size:20px;
+letter-spacing: 2px;
+font-weight: 400;
+text-transform: capitalize;
+margin-bottom:20px;   
+}
+
+.text-area-2 h1
+{
+
+font-size: 62px;
+margin-bottom: 20px;
+color: #fff;  
+}
+
+
+
+.text-area-3 button {
+    width: 197px;
+    height: 46px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid white;
+}
+
+
+.form-design
+{
+position: absolute;
+text-align: center;
+width: 330px;
+border: 1px solid rgb(88 80 80 / 16%);  
+bottom: 10px;
+right: 30px; 
+padding: 2rem 1rem;
+background-color:rgb(88 80 80 / 16%); 
+}
+
+.form-design h2
+{
+text-transform: capitalize;
+margin-bottom: 20px; 
+color: white;   
+}
+
+.form-design form input
+{
+width: 92%;
+margin-bottom: 20px;
+text-transform: capitalize;
+padding: 10px 12px;
+background: rgb(226, 209, 209);
+border: 1px solid transparent;
+outline: none;
+border-radius: 6px;
+color: black;
+}
+
+
+.last-item
+{
+text-align: center;
+background: yellow !important;
+color: white !important;  
+transition: .4s;
+}
+
+.last-item:hover
+{
+background: red !important;    
+}
